@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <RelativeLayout
+
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".view.FoodDetailFragment">
+
+        <ImageView
+            android:id="@+id/foodImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:minHeight="200dp"
+            android:scaleType="fitCenter"
+            android:layout_margin="10dp"
+            app:srcCompat="@drawable/ic_launcher_background"></ImageView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/besinIsim"
+            android:text="besinismi"
+            android:layout_below="@+id/foodImage"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/besinkalori"
+            android:text="besinkalorisi"
+            android:layout_below="@+id/besinIsim"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp">
+
+        </TextView>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/besinKarbonhidrad"
+            android:text="besinkarbonhidrad"
+            android:layout_below="@+id/besinkalori"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/besinProtein"
+            android:text="besinprotein"
+            android:layout_below="@+id/besinKarbonhidrad"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp">
+
+        </TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/besinyag"
+            android:text="besinyag"
+            android:layout_below="@+id/besinProtein"
+            android:textSize="18sp"
+            android:layout_centerHorizontal="true"
+            android:layout_margin="5dp">
+
+        </TextView>
+        </RelativeLayout>
+</layout>

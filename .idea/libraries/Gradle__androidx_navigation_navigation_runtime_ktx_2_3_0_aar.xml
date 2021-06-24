@@ -1,0 +1,13 @@
+<component name="libraryTable">
+  <library name="Gradle: androidx.navigation:navigation-runtime-ktx:2.3.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.jdks/corretto-1.8.0_292/jre/caches/transforms-2/files-2.1/6453fe2f134155dda471c276cb263089/navigation-runtime-ktx-2.3.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.jdks/corretto-1.8.0_292/jre/caches/transforms-2/files-2.1/6453fe2f134155dda471c276cb263089/navigation-runtime-ktx-2.3.0/res" />
+      <root url="file://$USER_HOME$/.jdks/corretto-1.8.0_292/jre/caches/transforms-2/files-2.1/6453fe2f134155dda471c276cb263089/navigation-runtime-ktx-2.3.0/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.jdks/corretto-1.8.0_292/jre/caches/modules-2/files-2.1/androidx.navigation/navigation-runtime-ktx/2.3.0/4d2da12a557444e5706dd6ca99f059ec099a45de/navigation-runtime-ktx-2.3.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>
